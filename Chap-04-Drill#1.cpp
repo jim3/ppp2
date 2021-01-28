@@ -1,9 +1,8 @@
-//*********************************************************
-// Section 4 Drill step 1
+// *******************************************************************************************
+// Chapter 4 Drill #1
 // Write a program that consists of a while-loop that (each time around the loop) reads
 // in two INTs and then prints them. Exit the program when a terminating '|' is entered.
-// Chapter 4 Drill #1 [holy shit that took forever!☺]
-//*********************************************************
+// *******************************************************************************************
 
 #include <iostream>
 #include <cstdlib>
