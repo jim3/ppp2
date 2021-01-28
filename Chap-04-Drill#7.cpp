@@ -57,11 +57,5 @@ int main()
         std::cout<< std::endl;
 
         sort(v.begin(), v.end());
-    }   /*
-        // print out a sorted row, hi to lo
-        for (double i=0; i<1; i++){
-            for (double j=v.size()-1; j>=0; --j){
-            std::cout<< v[j]<< ",";
-            }
-        }*/
+    } 
 }
