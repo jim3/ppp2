@@ -38,7 +38,7 @@ int main()
         else if (input1 < input2){ 
             std::cout << "The smaller is: " << input1 << " The larger is: " << input2 << std::endl; 
         }
-
+        
         // If the numbers entered are the same, tell the user
         else if (input1 == input2) {
             std::cout << "The two numbers you entered have the same value! Please, only enter integers of different values: "<< std::endl;
