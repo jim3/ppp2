@@ -23,7 +23,6 @@ int main()
         std::cin>> num2;
         if (num2 == "|") {break;}
 
-        else {
 		double input1 = atof(num1.c_str());     // Converting string to double floating point
         double input2 = atof(num2.c_str());     // Converting string to double floating point
 
@@ -32,12 +31,11 @@ int main()
         if(input1 > input2){
             swap = input1;
             input1 = input2;
-            input2 = swap;
-            
-        std::cout << "The smaller is: " << input1 << " The larger is: " << swap << std::endl;
+            input2 = swap;    
+            std::cout << "The smaller is: " << input1 << " The larger is: " << swap << std::endl;
         }
-        else if (input1 < input2)
-        { 
+        
+        else if (input1 < input2) { 
             std::cout << "The smaller is: " << input1 << " The larger is: " << input2 << std::endl; 
         }
         
@@ -45,6 +43,6 @@ int main()
         else if (input1 == input2) {
             std::cout << "The two numbers you entered have the same value! Please, only enter integers of different values: "<< std::endl;
         }
-        }
+        
     }
 }
