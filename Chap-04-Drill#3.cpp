@@ -23,7 +23,6 @@ int main()
         std::cin>> num2;
         if (num2 == "|") {break;}
 
-        else {
 		int input1 = atoi(num1.c_str());     // Converting string to integer
         int input2 = atoi(num2.c_str());     // Converting string to integer
 
@@ -33,19 +32,16 @@ int main()
             swap = input1;
             input1 = input2;
             input2 = swap;
-            
-        std::cout << "The smaller is: " << input1 << " The larger is: " << swap << std::endl;
+            std::cout << "The smaller is: " << input1 << " The larger is: " << swap << std::endl;
         }
-        else if (input1 < input2)
-        { 
+            
+        else if (input1 < input2){ 
             std::cout << "The smaller is: " << input1 << " The larger is: " << input2 << std::endl; 
         }
-        
+
         // If the numbers entered are the same, tell the user
         else if (input1 == input2) {
             std::cout << "The two numbers you entered have the same value! Please, only enter integers of different values: "<< std::endl;
-        }
-        
         }
     }
 }
