@@ -16,7 +16,7 @@ int main()
 {   
     double sum_value;
     double float_low;
-	std::string num_string;
+    std::string num_string;
     std::string badData = "** Invalid unit! **";
     std::vector<double> v{};
     std::vector<double> u{};
@@ -24,12 +24,12 @@ int main()
     
     while (true)
     {
-	    std::cout<< "Enter a value or '|' to quit: ";
+        std::cout<< "Enter a value or '|' to quit: ";
         std::cin>> num_string;
         if (num_string == "|") {break;}
 
         // converting string to a floating point
-		float_low = atof(num_string.c_str());
+        float_low = atof(num_string.c_str());
 
         while(true)
         {
