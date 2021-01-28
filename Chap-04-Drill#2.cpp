@@ -10,7 +10,7 @@
 
 int main()
 {
-	std::string num1;
+    std::string num1;
     std::string num2;
     int swap;
     std::vector<int> vect{};
