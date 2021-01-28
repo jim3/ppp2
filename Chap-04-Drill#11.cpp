@@ -14,10 +14,10 @@ come out in increasing order).
 
 int main()
 {   
-    std::string badData = "** Invalid unit! **";
     double sum_value;
     double float_low;
 	std::string num_string;
+    std::string badData = "** Invalid unit! **";
     std::vector<double> v{};
     std::vector<double> u{};
     char unit;
@@ -67,7 +67,7 @@ int main()
         // push each floating point number into a vector of type double
         v.push_back(float_low);
         
-        // push values converted to meters, then get sum of all
+        // push values converted to meters into vector, then get sum of all
         u.push_back(sum_value);
         double sum_meters = 0.0;
         
@@ -83,11 +83,10 @@ int main()
         std::cout<< " Number of values : " <<v.size();                      std::cout<<"\n";
         std::cout<< " The sum total of values in meters: "<< sum_meters;    std::cout<<"\n";
     }
-        std::cout<< "[";
         // print out a sorted row, lo to hi
+        std::cout<< "[";
         for (double i=0; i<1; i++){
-            for (double j=0; j<=v.size()-1; ++j){
-            
+            for (double j=0; j<=v.size()-1; ++j) {
             std::cout<< v[j]<< ",";
             }
         }
